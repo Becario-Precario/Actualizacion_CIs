@@ -1,0 +1,17 @@
+﻿Si no va por algun problema de pandas o algo relacionado, lo mejore s borrar python, intalarlo con uno de los launchers de abajo y luego ir ejecutando los comandos.
+
+pip uninstall pandas numpy -y
+
+pip cache purge
+
+pip install numpy==1.25.2 pandas==2.1.0
+
+pip install openpyxl
+
+pip install SQLAlchemy
+
+pip install pyodbc
+
+pip install selenium
+
+pip install webdriver_manager

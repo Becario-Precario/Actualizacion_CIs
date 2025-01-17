@@ -1,0 +1,17 @@
+Conexión exitosa a la base de datos.
+Consulta ejecutada correctamente.
+Archivo CSV guardado exitosamente en: C:\Users\Administrador\Documents\Python\Archivo_uso\servicetonic.csv
+Navegación a la página de suscripciones activas...
+Botón de exportación clicado. Esperando descarga...
+Archivo descargado y renombrado correctamente como 'proveedores.xlsx'.
+Csv formatado correctamente a Excel
+Primera comparacion correcta.
+Creacion de f1_actualizado.xlsx correctamente
+C:\Users\Administrador\Documents\Python\Programas\comparar2_xlsx.py:25: UserWarning: Parsing dates in %Y-%m-%d %H:%M:%S.%f format when dayfirst=True was specified. Pass `dayfirst=False` or specify a format to silence this warning.
+  return pd.to_datetime(fecha, dayfirst=True).strftime('%Y%m%d')
+Archivo 'resultado_correo.csv' generado con éxito.
+Segunda comparacion realizada correctamente.
+Archivo convertido a ../Resultado/f1_actualizado_20250117.sti con delimitador ";" y codificación UTF-8-SIG
+Usando la unidad de red: S:\Cmdb\1
+Archivo movido a S:\Cmdb\1\f1_actualizado_20250117.sti
+Correo enviado exitosamente.

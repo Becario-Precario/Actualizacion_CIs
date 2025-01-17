@@ -1,0 +1,6 @@
+Descripción: Una lista de cambios realizados en la cantidad de suscripciones en servicetonic.xlsx basados en proveedor.xlsx.
+Procesando el archivo: ../Logs/cantidad.txt
+../Logs/cantidad.txt
+Linea 91 | Valor ref: de481e18-8474-4750-cd44-8652ee4a5d5c | cantidad: 1 --> 2
+
+
