@@ -31,11 +31,11 @@ try:
     # Espera hasta que el campo de usuario esté disponible y lo rellena
     wait = WebDriverWait(driver, 40)  # Tiempo máximo de espera de 40 segundos
     username_input = wait.until(EC.presence_of_element_located((By.ID, "Username")))
-    username_input.send_keys("1117325001")  # Ingresa el usuario (credenciales estáticas)
+    username_input.send_keys('''Ingresa el usuario''') 
 
     # Espera hasta que el campo de contraseña esté disponible y lo rellena
     password_input = wait.until(EC.presence_of_element_located((By.ID, "Password")))
-    password_input.send_keys("Vilasok*96!!")  # Ingresa la contraseña (credenciales estáticas)
+    password_input.send_keys( '''Ingresa la contraseña''' )
     password_input.send_keys(Keys.RETURN)  # Envía el formulario pulsando la tecla Enter
 
     # Pausa para asegurarse de que la sesión se ha iniciado correctamente
