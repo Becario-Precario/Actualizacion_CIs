@@ -8,15 +8,15 @@ import time  # Módulo para manejar pausas temporales.
 from datetime import datetime  # Módulo para manejar fechas y horas.
 
 # Configuración del servidor SMTP
-SMTP_SERVER = 'mail.ofigrafic.es'  # Dirección del servidor SMTP.
+SMTP_SERVER =   # Dirección del servidor SMTP.
 SMTP_PORT = 587  # Puerto del servidor SMTP para conexiones TLS.
-SMTP_USER = 'ricoh@ofigrafic.es'  # Usuario para autenticarse en el servidor SMTP.
-SMTP_PASSWORD = 'ric6847'  # Contraseña del usuario SMTP.
+SMTP_USER =   # Usuario para autenticarse en el servidor SMTP.
+SMTP_PASSWORD =   # Contraseña del usuario SMTP.
 
 # Direcciones de correo
-FROM_EMAIL = 'ricoh@ofigrafic.es'  # Dirección del remitente.
-TO_EMAIL = 'jcgarcia@alanait.com'  # Dirección del destinatario principal.
-CC_EMAIL = 'jbeltran@alanait.com' # Dirección de copia al destinatario.
+FROM_EMAIL =  # Dirección del remitente.
+TO_EMAIL =  # Dirección del destinatario principal.
+CC_EMAIL = # Dirección de copia al destinatario.
 
 '''
 # Retraso de 15 minutos antes de enviar el correo
